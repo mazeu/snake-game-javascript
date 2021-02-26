@@ -1,0 +1,80 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: content-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+    background-color: #879097;
+    padding: 30px;
+    width:70%;
+  }
+.container{
+    padding:10px;
+    height: 650px;
+    background-image: linear-gradient(#326b37, #565656);
+    display:flexbox;
+    flex-direction: row;
+}
+body{
+    height: 95vh;
+    width: 80;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgb(47, 141, 38);
+    background-color: #879097;
+    color:honeydew;
+}
+.menu{
+    background-image: url("/img/snake.jpg");
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+}
+
+.start{
+    margin:5px 5px;
+    padding:5px;
+    background-color:rgb(121, 212, 41);
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0px 1px 10px green;
+}
+
+.stop{
+    margin:5px 5px;
+    padding:5px;
+    background-color:rgb(212, 93, 63);
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0px 1px 10px red;
+}
+
+p {
+    padding:5px;
+    font-size:20px;
+}
+span{
+    padding:5px;
+    font-size:25px;
+    font-weight: 800;
+}
+footer{
+    display: inline-block;
+    flex-direction: row;
+  
+}
+.nome{
+    float:left;
+    padding: 0px 45px 5px;
+}
+.curso{
+    float:right;
+    padding: 0px 45px 5px;
+}
